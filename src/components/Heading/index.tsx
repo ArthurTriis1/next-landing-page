@@ -8,11 +8,11 @@ export type Props = {
   children: string;
 };
 
-const Heading: React.FC<Props> = ({
+const Heading = ({
   reverseColor = false,
   lineBottom = false,
   children
-}) => (
+}: Props) => (
   <S.Wrapper reverseColor={reverseColor} lineBottom={lineBottom}>
     {children}
   </S.Wrapper>

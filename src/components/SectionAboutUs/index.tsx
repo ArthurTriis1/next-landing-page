@@ -8,7 +8,7 @@ import { SectionAboutUsProps } from 'types/api';
 
 const SectionAboutUs = ({ title, authors }: SectionAboutUsProps) => (
   <Container>
-    <Heading reverseColor> {title} </Heading>
+    <Heading reverseColor>{title}</Heading>
 
     <S.Content>
       {authors.map((profile) => (
